@@ -12,7 +12,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `ml_preojects`,
+      name: `My Projects`,
       href: "https://github.com/aniketsharma21/ml_projects",
     },
   ],
@@ -61,10 +61,10 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: false,
+    enable: true,
     config: {
       host: "https://cusdis.com",
-      appid: "e0bd44d0-4aac-4af4-9a51-f010a1adea61", // Embed Code -> data-app-id value
+      appid: "a4e197dc-c981-45be-b73c-bb50183f2adb", // Embed Code -> data-app-id value
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
